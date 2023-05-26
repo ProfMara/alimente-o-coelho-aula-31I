@@ -41,9 +41,7 @@ function setup() {
     corda = new Corda({x:250,y:80},bola.body);
     
     botaoImg = createImg("cortar.png");
-    //tamanho? Posição?
     botaoImg.size(60,60);
-    //definir a posição
     botaoImg.position(220,40);
     botaoImg.mouseClicked(cortar);
 
